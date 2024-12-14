@@ -1,1 +1,1 @@
-# Detection Engineering 
+# Detection Engineering Homelab
