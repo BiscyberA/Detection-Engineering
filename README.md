@@ -64,6 +64,10 @@ Below is the raw source of the body of the email.We will use Url Extractor to ex
 <img src="https://i.postimg.cc/qRCSG1ZH/Screenshot-2024-12-11-190957.png" />
 <br />
 <br />
+Note<br/>
+<img src="https://i.postimg.cc/x1SC3RZf/Screenshot-2024-12-14-135740.png" />
+<br />
+<br />
 Below is a better view of the Email Header using Message Header Analyzer: I will use VirusTotal to learn more about the host name 'sonic.gate.mail.ne1.yahoo.com'I will also use ipinfo.io to learn about the Ip address 98.137.66.83 associated with hostname sonic321-20.consmr.mail.gq1.yahoo.com<br/>
 <img src="https://i.postimg.cc/28HGV42Q/Screenshot-2024-12-11-192543.png" />
 <br />
@@ -89,15 +93,15 @@ Below is a result of the IP 98.136.103.23 using VirusTotal: We can see there is 
 <br />
 <br />
 Note<br/>
+<img src="https://i.postimg.cc/1R8wJLHq/Screenshot-2024-12-12-114339.png" />
+<br />
+<br />
+Note<br/>
 <img src="https://i.postimg.cc/3NnYpLcC/Screenshot-2024-12-12-150440.png" />
 <br />
 <br />
 Note<br/>
 <img src="https://i.postimg.cc/9Q2YzLjN/Screenshot-2024-12-12-151024.png" />
-<br />
-<br />
-I use Url Extractor to extract the Email body for any links or urls. Below shows the urls in the email body. We will use UrlScan.io to learn more about the url giovascuss.com<br/>
-<img src="https://i.postimg.cc/1R8wJLHq/Screenshot-2024-12-12-114339.png" />
 <br />
 <br />
 Below is the result of UrlScan of giovascuss.com. We can see its IP Address, located in Vietnam and also flag as malicious
@@ -117,6 +121,22 @@ Note<br/>
 <br />
 <br />
 Note<br/>
+<img src="https://i.postimg.cc/Y9Z5Y5rH/Screenshot-2024-12-12-135111.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/ydJSR1fg/Screenshot-2024-12-12-164810.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/jSKN1rjm/Screenshot-2024-12-12-170102.png" />
+<br />
+<br />
+ Note<br/>
+<img src="https://i.postimg.cc/NMhQNQsr/Screenshot-2024-12-12-173516.png" />
+<br />
+<br />
+Note<br/>
 <img src="https://i.postimg.cc/52bm7sjW/Screenshot-2024-12-12-133636.png" />
 <br />
 <br />
@@ -129,7 +149,7 @@ Note<br/>
 <br />
 <br />
 Note<br/>
-<img src="https://i.postimg.cc/Y9Z5Y5rH/Screenshot-2024-12-12-135111.png" />
+<img src="https://i.postimg.cc/636Mxvps/Screenshot-2024-12-12-135059.png" />
 <br />
 <br />
 Note<br/>
