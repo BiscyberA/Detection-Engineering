@@ -1,1 +1,1 @@
- <h1>Detection Engineering Homelab</h1>
+ <h1>DetectioN Engineering Homelab</h1>
