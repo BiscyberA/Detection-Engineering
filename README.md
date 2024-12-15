@@ -22,21 +22,21 @@ In this lab, we will focus on the core principles of detection engineering by de
   
 
 <h2>Lab walk-through:</h2>
-
 <p align="center">
-Installing ThunderBirdEmail Client on Windows 10 Host: Click Next<br/>
+<br/>
+Here is the Lab Overveiw<br/>
 <img src="https://i.postimg.cc/qR84jBzL/Screenshot-2024-12-11-200416.png" />
 <br />
 <br />
-Note<br/>
+I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Running<br/>
 <img src="https://i.postimg.cc/Zn1JY9B6/Screenshot-2024-12-13-231314.png"/>
 <br />
 <br />
-Click Next to Allow Standard Setup<br/>
+I created a small NatNetwork to have all three VMs connected to it and be able to talk to each other<br/>
 <img src="https://i.postimg.cc/VNQh4qMx/Screenshot-2024-12-11-152317.png"/>
 <br />
 <br />
-Click install<br/>
+I connected the Windows 11 VM to the Natnetwork<br/>
 <img src="https://i.postimg.cc/MTZdrdGF/Screenshot-2024-12-13-234149.png" />
 <br />
 <br />
