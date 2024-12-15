@@ -137,15 +137,11 @@ Note<br/>
 <br />
 <br />
 Note<br/>
-<img src="https://i.postimg.cc/52bm7sjW/Screenshot-2024-12-12-133636.png" />
-<br />
-<br />
-Note<br/>
-<img src="https://i.postimg.cc/4yyD9Jkw/Screenshot-2024-12-12-133900.png" />
-<br />
-<br />
-Note<br/>
 <img src="https://i.postimg.cc/8zp0JpRv/Screenshot-2024-12-13-015514.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/sfkjtwBr/Screenshot-2024-12-13-021655.png" />
 <br />
 <br />
 Note<br/>
