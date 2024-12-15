@@ -149,11 +149,55 @@ Note<br/>
 <br />
 <br />
 Note<br/>
-<img src="https://i.postimg.cc/kXcjd00g/Screenshot-2024-12-12-135355.png" />
+<img src="https://i.postimg.cc/0y9BGQLB/Screenshot-2024-12-12-235010.png" />
 <br />
 <br />
 Note<br/>
-<img src="https://i.postimg.cc/P5V2CmrG/Screenshot-2024-12-12-135845.png" />
+<img src="https://i.postimg.cc/SNy7ZFFm/Screenshot-2024-12-13-001211.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/13X0QG3T/Screenshot-2024-12-13-010328.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/13X0QG3T/Screenshot-2024-12-13-010328.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/zvMzRYTT/Screenshot-2024-12-13-010902.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/tTWwzQ0h/Screenshot-2024-12-15-000525.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/Bb3yYYsR/Screenshot-2024-12-13-012448.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/QxXwcyfT/Screenshot-2024-12-13-012709.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/3RZhB6tX/Screenshot-2024-12-13-012941.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/jSJr9C8d/Screenshot-2024-12-13-013747.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/4d05r42s/Screenshot-2024-12-15-002827.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/GtSZg1Gy/Screenshot-2024-12-13-015514.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/Z5N1H2RW/Screenshot-2024-12-13-020636.png" />
 <br />
 <br />
 Note<br/>
@@ -164,22 +208,9 @@ Note<br/>
 <img src="" />
 <br />
 <br />
-Note<br/>
-<img src="" />
-<br />
-<br />
-Note<br/>
-<img src="" />
-<br />
-<br />
-Note<br/>
-<img src="" />
-<br />
-<br />
-Note<br/>
-<img src="" />
-<br />
-<br />
+
+
+
 
 <h1>In Conclusion</h2>
 As a Security Analysis,when you receive a ticket of Phishing Email from employees, it is always important to use various available tools necessary to drill down the email and identify all the suspicious or malicious activites. You can also use malware sandbboxes to analyze attachments if any to identify the behaviour of a malware
