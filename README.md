@@ -217,16 +217,22 @@ Note<br/>
 <br />
 <br />
 Note<br/>
-<img src="" />
+<img src="https://i.postimg.cc/L5jnSRBr/Screenshot-2024-12-15-013719.png" />
 <br />
 <br />
-
-
-
-
-
+Note<br/>
+<img src="https://i.postimg.cc/jdV7F3Qp/Screenshot-2024-12-13-190205.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/nh3Mp3Bc/Screenshot-2024-12-13-190608.png" />
+<br />
+<br />
+Note<br/>
+<img src="https://i.postimg.cc/5y8qRhHt/Screenshot-2024-12-15-015920.png" />
+<br />
+<br />
 <h1>In Conclusion</h2>
-As a Security Analysis,when you receive a ticket of Phishing Email from employees, it is always important to use various available tools necessary to drill down the email and identify all the suspicious or malicious activites. You can also use malware sandbboxes to analyze attachments if any to identify the behaviour of a malware
-
+As a Detection Engineer, when investigating alerts or incidents related to suspicious activity, it is crucial to leverage various tools to analyze the data and identify potential threats. For example, email-related alerts can be dissected to uncover malicious indicators such as suspicious IPs, URLs, or payloads. Additionally, sandbox environments can be used to analyze attachments or executables, providing insight into the behavior of potential malware. This approach ensures accurate detections and aids in developing effective threat detection rules to proactively identify and mitigate similar threats in the future.
 </p>
 
