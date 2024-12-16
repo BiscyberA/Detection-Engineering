@@ -148,7 +148,7 @@ We can see zeek logs coming into Elastic after running the scans<br/>
 <img src="https://i.postimg.cc/636Mxvps/Screenshot-2024-12-12-135059.png" />
 <br />
 <br />
-We can see the logs in Elastic and based on the event.dataset, I am interested in zeek connection<br/>
+We can see the logs in Elastic and based on the event.dataset, I am interested in zeek.http data since our scan was hitting the http server<br/>
 <img src="https://i.postimg.cc/0y9BGQLB/Screenshot-2024-12-12-235010.png" />
 <br />
 <br />
@@ -156,47 +156,43 @@ I filtered the logs to make it looks more readable and organize<br/>
 <img src="https://i.postimg.cc/SNy7ZFFm/Screenshot-2024-12-13-001211.png" />
 <br />
 <br />
-Note<br/>
-<img src="https://i.postimg.cc/13X0QG3T/Screenshot-2024-12-13-010328.png" />
+I queried the logs for the string Nmap and got these results<br/>
+<img src="https://i.postimg.cc/KY4yBCnN/Screenshot-2024-12-15-233043.png" />
 <br />
 <br />
-Note<br/>
-<img src="https://i.postimg.cc/13X0QG3T/Screenshot-2024-12-13-010328.png" />
-<br />
-<br />
-Note<br/>
+I was also queried the logs for Nikto and got these results <br/>
 <img src="https://i.postimg.cc/zvMzRYTT/Screenshot-2024-12-13-010902.png" />
 <br />
 <br />
-Note<br/>
+I wrote a single query to filter namp and nikto strings in the logs. The idea here is to use this query to create a detection rule that will alert on Nmap and Nikto scans  <br/>
 <img src="https://i.postimg.cc/tTWwzQ0h/Screenshot-2024-12-15-000525.png" />
 <br />
 <br />
-Note<br/>
+I am going to create a customer rule to alert on Nmap and Nikto scans <br/>
 <img src="https://i.postimg.cc/Bb3yYYsR/Screenshot-2024-12-13-012448.png" />
 <br />
 <br />
-Note<br/>
+I added the query in the custom query field, suppressed alert by destination.ip and runs every 5mins.<br/>
 <img src="https://i.postimg.cc/QxXwcyfT/Screenshot-2024-12-13-012709.png" />
 <br />
 <br />
-Note<br/>
+I named the rule, gave a description and severity level<br/>
 <img src="https://i.postimg.cc/3RZhB6tX/Screenshot-2024-12-13-012941.png" />
 <br />
 <br />
-Note<br/>
+I added Mitre Att&ck information based on the activity performed<br/>
 <img src="https://i.postimg.cc/jSJr9C8d/Screenshot-2024-12-13-013747.png" />
 <br />
 <br />
-Note<br/>
+The rule shown been added to the Elastic buit-in rules list<br/>
 <img src="https://i.postimg.cc/4d05r42s/Screenshot-2024-12-15-002827.png" />
 <br />
 <br />
-Note<br/>
+I run the Nmap scan again against the web server to test on the detection rule created, if it will in Elastic <br/>
 <img src="https://i.postimg.cc/GtSZg1Gy/Screenshot-2024-12-13-015514.png" />
 <br />
 <br />
-Note<br/>
+I verified in Elastic and the Nmap scan was alert on the detection rule created <br/>
 <img src="https://i.postimg.cc/Z5N1H2RW/Screenshot-2024-12-13-020636.png" />
 <br />
 <br />
