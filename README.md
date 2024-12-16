@@ -36,123 +36,123 @@ I created a small NatNetwork to have all three VMs connected to it and be able t
 <img src="https://i.postimg.cc/VNQh4qMx/Screenshot-2024-12-11-152317.png"/>
 <br />
 <br />
-I connected the Windows 11 VM to the Natnetwork<br/>
+I connected Windows 11 VM to the Natnetwork<br/>
 <img src="https://i.postimg.cc/MTZdrdGF/Screenshot-2024-12-13-234149.png" />
 <br />
 <br />
-Setup Installing<br/>
+I connected Ubuntu VM to the Natnetwork<br/>
 <img src="https://i.postimg.cc/pX3cXf0m/Screenshot-2024-12-11-152424.png" />
 <br />
 <br />
-Installation Complete: Click finish<br/>
+I connected Kali VM to the Natnetwork<br/>
 <img src="https://i.postimg.cc/BQvtQD8f/Screenshot-2024-12-11-152445.png" />
 <br />
 <br />
-ThunderBird is launch. Create an email account, just as I have done and fowarded some suspicious email into the inbox.<br/>
+I tested connectivity between the VMs by pinging the Kali VM with the Ubuntu VM. Connection successfully reached <br/>
 <img src="https://i.postimg.cc/7ZFLVWKq/Screenshot-2024-12-11-152553.png" />
 <br />
 <br />
-Below is  the main body email: Attackes always request a quick responds for their phish emails(ugency).In this email,it is timed to make the victim responds as quickly as posible. Also looking at the graphics of the email, grammatical errors indicates suspicious emails<br/>
+I ping Ubuntu VM with Windows 11 VM and connection was successful<br/>
 <img src="https://i.postimg.cc/BQtQG0yq/Screenshot-2024-12-11-153357.png" /> 
 <br />
 <br />
-Below image is the raw source of the Email Header: We will analyze with Message header analyzer to get a better view<br/>
+I ping Ubuntu VM with Kali VM and connection was sucessful<br/>
 <img src="https://i.postimg.cc/nL1tDR5R/Screenshot-2024-12-11-153837.png" />
 <br />
 <br />
-Below is the raw source of the body of the email.We will use Url Extractor to extract all the links in the body<br/>
+I installed and deployed Zeek network monitoring and analyzer tool on Ubuntu and had it up and running <br/>
 <img src="https://i.postimg.cc/qRCSG1ZH/Screenshot-2024-12-11-190957.png" />
 <br />
 <br />
-Note<br/>
+I navigated to Zeek connection log directory to verify if its receiving logs. This output shows logs successfully been received<br/>
 <img src="https://i.postimg.cc/x1SC3RZf/Screenshot-2024-12-14-135740.png" />
 <br />
 <br />
-Below is a better view of the Email Header using Message Header Analyzer: I will use VirusTotal to learn more about the host name 'sonic.gate.mail.ne1.yahoo.com'I will also use ipinfo.io to learn about the Ip address 98.137.66.83 associated with hostname sonic321-20.consmr.mail.gq1.yahoo.com<br/>
+I signed up and deployed ElastiC SIEM instance  <br/>
 <img src="https://i.postimg.cc/28HGV42Q/Screenshot-2024-12-11-192543.png" />
 <br />
 <br />
-Below is a result of the domain sonic.gate.mail.ne1.yahoo.com: It looks clean but there are files embeded in the domain. We will dig down to identify any suspicious or malicious activities<br/> 
+I added built-in Elastic Defend integration to Elastic which provides prevention, detection and response capabilities<br/> 
 <img src="https://i.postimg.cc/pTYYx8mn/Screenshot-2024-12-11-193851.png" />
 <br />
 <br />
-Below is a result and information about the IP Adress 98.137.66.83 using ipinfo.io: Showing the city,region. country and location of the IP<br/>
+ I clicked insatll Elastic agent to beggin the installation<br />
 <img src="https://i.postimg.cc/4NK7QVXb/Screenshot-2024-12-11-194031.png" />
 <br />
 <br />
-More information about the IP Address: I am interested in the domain oath.com associated with IP address. I will use VirusTotal to learn more about it<br/> 
+I used this command to install the Elastic Agent on Windows 11 <br/> 
 <img src="https://i.postimg.cc/5NZH7y0c/Screenshot-2024-12-11-194405.png"/>
 <br />
 <br />
-Below is the result and more information about oath.com using VirusTotal: We can see this domain has been flagged as malicious. The IP address 98.136.103.23 highlighted in blue has 4 malicious activiies. I will run the IP in VirusTotal to learn about the malicious activities<br/> 
+I run the installation and it was successfully installed <br/> 
 <img src="https://i.postimg.cc/C5R1JppL/Screenshot-2024-12-12-111637.png"/>
 <br />
 <br />
-Below is a result of the IP 98.136.103.23 using VirusTotal: We can see there is a Malware and a Phishing activity associated with the IP Address.This IP was associated with the domain oath.com. Oath.com was also associated with the IP 98.137.66.83 which has the domain sonic321-20.consmr.mail.gq1.yahoo.com that send the original email<br/>
+Result of Elastic Agent enrolled on Windows 11<br/>
 <img src="https://i.postimg.cc/nzzccfzY/Screenshot-2024-12-12-112010.png" />
 <br />
 <br />
-Note<br/>
+A preview in Elastic Siem shows logs coming in from the Windows 11 VM after the Agent installed. <br/>
 <img src="https://i.postimg.cc/1R8wJLHq/Screenshot-2024-12-12-114339.png" />
 <br />
 <br />
-Note<br/>
+I run a few commands again on the Windows 11 VM to verify if it will be pickup by Elastic <br/>
 <img src="https://i.postimg.cc/3NnYpLcC/Screenshot-2024-12-12-150440.png" />
 <br />
 <br />
-Note<br/>
+I query the logs in Elastic for the Command Whoami and it was pickup by Elastic<br/>
 <img src="https://i.postimg.cc/9Q2YzLjN/Screenshot-2024-12-12-151024.png" />
 <br />
 <br />
-Below is the result of UrlScan of giovascuss.com. We can see its IP Address, located in Vietnam and also flag as malicious
+I also added Zeek integration to Elastic since I have Zeek running on Ubuntu VM for network monitoring.
 <img src="https://i.postimg.cc/ZnN94z7s/Screenshot-2024-12-12-114804.png" />
 <br />
 <br />
-Note<br/>
+Zeek integration added to Elastic <br/>
 <img src="https://i.postimg.cc/wMYq5y2F/Screenshot-2024-12-12-130920.png" />
 <br />
 <br />
-Note<br/>
+I run this command to install Elastic agent on Ubuntu where zeek is running<br/>
 <img src="https://i.postimg.cc/85SkMft4/Screenshot-2024-12-12-130947.png" />
 <br />
 <br />
-Note<br/>
+Elastic agent successfully installed on Ubuntu <br/>
 <img src="https://i.postimg.cc/N0XZ6Nnq/Screenshot-2024-12-12-131233.png" />
 <br />
 <br />
-Note<br/>
+Zeek logs successfully been ingested into Elastic<br/>
 <img src="https://i.postimg.cc/Y9Z5Y5rH/Screenshot-2024-12-12-135111.png" />
 <br />
 <br />
-Note<br/>
+An overveiw of web scans againts a simple webserver<br/>
 <img src="https://i.postimg.cc/ydJSR1fg/Screenshot-2024-12-12-164810.png" />
 <br />
 <br />
-Note<br/>
+I created a simple web server on windows 11 VM <br/>
 <img src="https://i.postimg.cc/jSKN1rjm/Screenshot-2024-12-12-170102.png" />
 <br />
 <br />
- Note<br/>
+I tested the webserver on a web browser and it was successfully up and running<br/>
 <img src="https://i.postimg.cc/NMhQNQsr/Screenshot-2024-12-12-173516.png" />
 <br />
 <br />
-Note<br/>
+I run an Nmap scan against the webserver and we can see the request coming in on the webserver<br/>
 <img src="https://i.postimg.cc/8zp0JpRv/Screenshot-2024-12-13-015514.png" />
 <br />
 <br />
-Note<br/>
+I also run an Nikto scan against the webserver and we can see the request coming in on the webserver<br/>
 <img src="https://i.postimg.cc/sfkjtwBr/Screenshot-2024-12-13-021655.png" />
 <br />
 <br />
-Note<br/>
+We can see zeek logs coming into Elastic after running the scans<br/>
 <img src="https://i.postimg.cc/636Mxvps/Screenshot-2024-12-12-135059.png" />
 <br />
 <br />
-Note<br/>
+We can see the logs in Elastic and based on the event.dataset, I am interested in zeek connection<br/>
 <img src="https://i.postimg.cc/0y9BGQLB/Screenshot-2024-12-12-235010.png" />
 <br />
 <br />
-Note<br/>
+I filtered the logs to make it looks more readable and organize<br/>
 <img src="https://i.postimg.cc/SNy7ZFFm/Screenshot-2024-12-13-001211.png" />
 <br />
 <br />
