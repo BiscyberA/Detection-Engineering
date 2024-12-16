@@ -224,7 +224,7 @@ I filter the logs with the necessary fields to get a better view <br/>
 <img src="https://i.postimg.cc/nh3Mp3Bc/Screenshot-2024-12-13-190608.png" />
 <br />
 <br />
-I then save the search which can be later use to alert n activities based on the command <br/>
+I then save the search which can be later use to alert in activities based on the command <br/>
 <img src="https://i.postimg.cc/5y8qRhHt/Screenshot-2024-12-15-015920.png" />
 <br />
 <br />
