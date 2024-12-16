@@ -196,35 +196,35 @@ I verified in Elastic and the Nmap scan was alert on the detection rule created 
 <img src="https://i.postimg.cc/Z5N1H2RW/Screenshot-2024-12-13-020636.png" />
 <br />
 <br />
- Note<br/>
+ I installed Atomic Redteam on the Windows 11 VM to simulate an attack,create detection rule of the attack and use the rule to alert on activities in our environment <br/>
 <img src="https://i.postimg.cc/9F9DPXGZ/Screenshot-2024-12-15-005711.png" />
 <br />
 <br />
- Note<br/>
+The installation run, basically installed the Atomic Redteam framework,a module into powershell and also downloaded the Mitre Techniques <br/>
 <img src="https://i.postimg.cc/23N89v4v/Screenshot-2024-12-14-220056.png" />
 <br />
 <br />
-Note<br/>
+I simulated the attack based on the Mitre Tactics Collection and Audio Capture Technique with ID T1123 <br/>
 <img src="https://i.postimg.cc/x81KTX8W/Screenshot-2024-12-15-011355.png" />
 <br />
 <br />
-Note<br/>
+I run the simulation attack by running the invoke command on the technique T1123<br/>
 <img src="https://i.postimg.cc/3w4C2QJq/Screenshot-2024-12-13-154524.png" />
 <br />
 <br />
-Note<br/>
+The invoke command run, will basically run the below powershell attack command <br/>
 <img src="https://i.postimg.cc/L5jnSRBr/Screenshot-2024-12-15-013719.png" />
 <br />
 <br />
-Note<br/>
+I verified the logs in Elastic,filter the windowsAudioDevice-Powershell-cmdlet and the logs successfully show in Elastic <br/>
 <img src="https://i.postimg.cc/jdV7F3Qp/Screenshot-2024-12-13-190205.png" />
 <br />
 <br />
-Note<br/>
+I filter the logs with the necessary fields to get a better view <br/>
 <img src="https://i.postimg.cc/nh3Mp3Bc/Screenshot-2024-12-13-190608.png" />
 <br />
 <br />
-Note<br/>
+I then save the search which can be later use to alert n activities based on the command <br/>
 <img src="https://i.postimg.cc/5y8qRhHt/Screenshot-2024-12-15-015920.png" />
 <br />
 <br />
