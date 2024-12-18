@@ -73,7 +73,7 @@ I signed up and deployed ElastiC SIEM instance  <br/>
 <br />
 <br />
 I added built-in Elastic Defend integration to Elastic which provides prevention, detection and response capabilities<br/> 
-<img src="https://i.postimg.cc/pTYYx8mn/Screenshot-2024-12-11-193851.png" />
+<img src="https://i.postimg.cc/gj5Sf1qL/Screenshot-2024-12-11-193851.png" />
 <br />
 <br />
  I clicked insatll Elastic agent to beggin the installation<br />
@@ -81,7 +81,7 @@ I added built-in Elastic Defend integration to Elastic which provides prevention
 <br />
 <br />
 I used this command to install the Elastic Agent on Windows 11 <br/> 
-<img src="https://i.postimg.cc/5NZH7y0c/Screenshot-2024-12-11-194405.png"/>
+<img src="https://i.postimg.cc/wjYFLXWz/Screenshot-2024-12-11-194405.png"/>
 <br />
 <br />
 I run the installation and it was successfully installed <br/> 
@@ -109,11 +109,11 @@ I also added Zeek integration to Elastic since I have Zeek running on Ubuntu VM 
 <br />
 <br />
 Zeek integration added to Elastic <br/>
-<img src="https://i.postimg.cc/wMYq5y2F/Screenshot-2024-12-12-130920.png" />
+<img src="https://i.postimg.cc/WzrYcX99/Screenshot-2024-12-12-130920.png" />
 <br />
 <br />
 I run this command to install Elastic agent on Ubuntu where zeek is running<br/>
-<img src="https://i.postimg.cc/85SkMft4/Screenshot-2024-12-12-130947.png" />
+<img src="https://i.postimg.cc/kg71LNWc/Screenshot-2024-12-12-130947.png" />
 <br />
 <br />
 Elastic agent successfully installed on Ubuntu <br/>
@@ -121,7 +121,7 @@ Elastic agent successfully installed on Ubuntu <br/>
 <br />
 <br />
 Zeek logs successfully been ingested into Elastic<br/>
-<img src="https://i.postimg.cc/Y9Z5Y5rH/Screenshot-2024-12-12-135111.png" />
+<img src="" />
 <br />
 <br />
 An overveiw of web scans againts a simple webserver<br/>
