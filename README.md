@@ -49,15 +49,15 @@ I connected Kali VM to the Natnetwork<br/>
 <br />
 <br />
 I tested connectivity between the VMs by pinging the Kali VM with the Ubuntu VM. Connection successfully reached <br/>
-<img src="https://i.postimg.cc/7ZFLVWKq/Screenshot-2024-12-11-152553.png" />
+<img src="https://i.postimg.cc/FsTsJpFd/Screenshot-2024-12-11-152553.png" />
 <br />
 <br />
 I ping Ubuntu VM with Windows 11 VM and connection was successful<br/>
-<img src="https://i.postimg.cc/BQtQG0yq/Screenshot-2024-12-11-153357.png" /> 
+<img src="https://i.postimg.cc/1X9s8nLr/Screenshot-2024-12-11-153837.png" /> 
 <br />
 <br />
 I ping Ubuntu VM with Kali VM and connection was sucessful<br/>
-<img src="https://i.postimg.cc/nL1tDR5R/Screenshot-2024-12-11-153837.png" />
+<img src="https://i.postimg.cc/1X9s8nLr/Screenshot-2024-12-11-153837.png" />
 <br />
 <br />
 I installed and deployed Zeek network monitoring and analyzer tool on Ubuntu and had it up and running <br/>
@@ -65,7 +65,7 @@ I installed and deployed Zeek network monitoring and analyzer tool on Ubuntu and
 <br />
 <br />
 I navigated to Zeek connection log directory to verify if its receiving logs. This output shows logs successfully been received<br/>
-<img src="https://i.postimg.cc/x1SC3RZf/Screenshot-2024-12-14-135740.png" />
+<img src="https://i.postimg.cc/wjNZdxrq/Screenshot-2024-12-14-135740.png" />
 <br />
 <br />
 I signed up and deployed ElastiC SIEM instance  <br/>
