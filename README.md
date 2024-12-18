@@ -29,7 +29,7 @@ Here is the Lab Overveiw<br/>
 <br />
 <br />
 I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Running<br/>
-<img src="https://i.postimg.cc/Zn1JY9B6/Screenshot-2024-12-13-231314.png"/>
+<img src="https://i.postimg.cc/G2LkzzY0/Screenshot-2024-12-13-231314.png"/>
 <br />
 <br />
 I created a small NatNetwork to have all three VMs connected to it and be able to talk to each other<br/>
@@ -41,11 +41,11 @@ I connected Windows 11 VM to the Natnetwork<br/>
 <br />
 <br />
 I connected Ubuntu VM to the Natnetwork<br/>
-<img src="https://i.postimg.cc/pX3cXf0m/Screenshot-2024-12-11-152424.png" />
+<img src="https://i.postimg.cc/Kjd3X5K8/Screenshot-2024-12-11-152424.png" />
 <br />
 <br />
 I connected Kali VM to the Natnetwork<br/>
-<img src="https://i.postimg.cc/BQvtQD8f/Screenshot-2024-12-11-152445.png" />
+<img src="https://i.postimg.cc/gkmnhrv5/Screenshot-2024-12-11-152445.png" />
 <br />
 <br />
 I tested connectivity between the VMs by pinging the Kali VM with the Ubuntu VM. Connection successfully reached <br/>
