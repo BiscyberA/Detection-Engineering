@@ -157,7 +157,7 @@ I filtered the logs to make it looks more readable and organize<br/>
 <br />
 <br />
 I queried the logs for the string Nmap and got these results<br/>
-<img src="https://i.postimg.cc/KY4yBCnN/Screenshot-2024-12-15-233043.png" />
+<img src="https://i.postimg.cc/gkQ2dFYt/Screenshot-2024-12-15-233043.png" />
 <br />
 <br />
 I was also queried the logs for Nikto and got these results <br/>
@@ -173,7 +173,7 @@ I am going to create a customer rule to alert on Nmap and Nikto scans <br/>
 <br />
 <br />
 I added the query in the custom query field, suppressed alert by destination.ip and runs every 5mins.<br/>
-<img src="https://i.postimg.cc/QxXwcyfT/Screenshot-2024-12-13-012709.png" />
+<img src="https://i.postimg.cc/mgkCpGmd/Screenshot-2024-12-13-012709.png" />
 <br />
 <br />
 I named the rule, gave a description and severity level<br/>
@@ -188,8 +188,8 @@ The rule shown been added to the Elastic buit-in rules list<br/>
 <img src="https://i.postimg.cc/4d05r42s/Screenshot-2024-12-15-002827.png" />
 <br />
 <br />
-I run the Nmap scan again against the web server to test on the detection rule created, if it will in Elastic <br/>
-<img src="https://i.postimg.cc/GtSZg1Gy/Screenshot-2024-12-13-015514.png" />
+I run the Nmap scan again against the web server to test on the detection rule created if it will be alerted in Elastic <br/>
+<img src="https://i.postimg.cc/FHYkgVK8/Screenshot-2024-12-13-015514.png" />
 <br />
 <br />
 I verified in Elastic and the Nmap scan was alert on the detection rule created <br/>
@@ -197,7 +197,7 @@ I verified in Elastic and the Nmap scan was alert on the detection rule created 
 <br />
 <br />
  I installed Atomic Redteam on the Windows 11 VM to simulate an attack,create detection rule of the attack and use the rule to alert on activities in our environment <br/>
-<img src="https://i.postimg.cc/9F9DPXGZ/Screenshot-2024-12-15-005711.png" />
+<img src="https://i.postimg.cc/ydHJKqTC/Screenshot-2024-12-15-005711.png" />
 <br />
 <br />
 The installation run, basically installed the Atomic Redteam framework,a module into powershell and also downloaded the Mitre Techniques <br/>
@@ -209,7 +209,7 @@ I simulated the attack based on the Mitre Tactics Collection and Audio Capture T
 <br />
 <br />
 I run the simulation attack by running the invoke command on the technique T1123<br/>
-<img src="https://i.postimg.cc/3w4C2QJq/Screenshot-2024-12-13-154524.png" />
+<img src="https://i.postimg.cc/90SCWZjw/Screenshot-2024-12-13-154524.png" />
 <br />
 <br />
 The invoke command run, will basically run the below powershell attack command <br/>
@@ -220,8 +220,8 @@ I verified the logs in Elastic,filter the windowsAudioDevice-Powershell-cmdlet a
 <img src="https://i.postimg.cc/jdV7F3Qp/Screenshot-2024-12-13-190205.png" />
 <br />
 <br />
-I filter the logs with the necessary fields to get a better view <br/>
-<img src="https://i.postimg.cc/nh3Mp3Bc/Screenshot-2024-12-13-190608.png" />
+I filtered the logs with the necessary fields to get a better view <br/>
+<img src="https://i.postimg.cc/VNRwJ388/Screenshot-2024-12-13-190608.png" />
 <br />
 <br />
 I then save the search which can be later use to alert in activities based on the command <br/>
