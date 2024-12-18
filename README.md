@@ -121,11 +121,11 @@ Elastic agent successfully installed on Ubuntu <br/>
 <br />
 <br />
 Zeek logs successfully been ingested into Elastic<br/>
-<img src="" />
+<img src="https://i.postimg.cc/RZqf3Nmm/Screenshot-2024-12-12-135059.png" />
 <br />
 <br />
 An overveiw of web scans againts a simple webserver<br/>
-<img src="https://i.postimg.cc/ydJSR1fg/Screenshot-2024-12-12-164810.png" />
+<img src="https://i.postimg.cc/gJb6BsZc/Screenshot-2024-12-12-164810.png" />
 <br />
 <br />
 I created a simple web server on windows 11 VM <br/>
