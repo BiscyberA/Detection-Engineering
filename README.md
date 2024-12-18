@@ -141,11 +141,11 @@ I run an Nmap scan against the webserver and we can see the request coming in on
 <br />
 <br />
 I also run an Nikto scan against the webserver and we can see the request coming in on the webserver<br/>
-<img src="https://i.postimg.cc/sfkjtwBr/Screenshot-2024-12-13-021655.png" />
+<img src="https://i.postimg.cc/t432yb39/Screenshot-2024-12-13-021655.png" />
 <br />
 <br />
 We can see zeek logs coming into Elastic after running the scans<br/>
-<img src="https://i.postimg.cc/636Mxvps/Screenshot-2024-12-12-135059.png" />
+<img src="https://i.postimg.cc/DfR9w2XG/Screenshot-2024-12-12-135111.png" />
 <br />
 <br />
 We can see the logs in Elastic and based on the event.dataset, I am interested in zeek.http data since our scan was hitting the http server<br/>
