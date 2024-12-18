@@ -129,15 +129,15 @@ An overveiw of web scans againts a simple webserver<br/>
 <br />
 <br />
 I created a simple web server on windows 11 VM <br/>
-<img src="https://i.postimg.cc/jSKN1rjm/Screenshot-2024-12-12-170102.png" />
+<img src="https://i.postimg.cc/zf719XLL/Screenshot-2024-12-12-170102.png" />
 <br />
 <br />
 I tested the webserver on a web browser and it was successfully up and running<br/>
-<img src="https://i.postimg.cc/NMhQNQsr/Screenshot-2024-12-12-173516.png" />
+<img src="https://i.postimg.cc/6qywVJp8/Screenshot-2024-12-12-173516.png" />
 <br />
 <br />
 I run an Nmap scan against the webserver and we can see the request coming in on the webserver<br/>
-<img src="https://i.postimg.cc/8zp0JpRv/Screenshot-2024-12-13-015514.png" />
+<img src="https://i.postimg.cc/g0YCqFMG/Screenshot-2024-12-13-015514.png" />
 <br />
 <br />
 I also run an Nikto scan against the webserver and we can see the request coming in on the webserver<br/>
