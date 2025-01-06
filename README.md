@@ -25,7 +25,7 @@ In this lab, we will focus on the core principles of detection engineering by de
 <p align="center">
 <br/>
 Here is the Lab Overveiw<br/>
-<img src="https://i.postimg.cc/qR84jBzL/Screenshot-2024-12-11-200416.png" />
+<img src="https://imgur.com/a/4vIRdCT" />
 <br />
 <br />
 I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Running<br/>
