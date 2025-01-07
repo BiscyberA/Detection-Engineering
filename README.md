@@ -25,119 +25,119 @@ In this lab, we will focus on the core principles of detection engineering by de
 <p align="center">
 <br/>
 Here is the Lab Overveiw<br/>
-<img src="https://imgur.com/a/4vIRdCT" />
+<img src="https://imgur.com/3H1TWOr.png" height="80%" width="80%" />
 <br />
 <br />
 I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Running<br/>
-<img src="https://i.postimg.cc/G2LkzzY0/Screenshot-2024-12-13-231314.png"/>
+<img src="https://imgur.com/u486CZ5.png" height="80%" width="80%"/>
 <br />
 <br />
 I created a small NatNetwork to have all three VMs connected to it and be able to talk to each other<br/>
-<img src="https://i.postimg.cc/VNQh4qMx/Screenshot-2024-12-11-152317.png"/>
+<img src="https://imgur.com/uAC2GUw.png" height="80%" width="80%" />
 <br />
 <br />
 I connected Windows 11 VM to the Natnetwork<br/>
-<img src="https://i.postimg.cc/MTZdrdGF/Screenshot-2024-12-13-234149.png" />
+<img src="https://imgur.com/ALNDB6v.png" height="80%" width="80%" />
 <br />
 <br />
-I connected Ubuntu VM to the Natnetwork<br/>
-<img src="https://i.postimg.cc/Kjd3X5K8/Screenshot-2024-12-11-152424.png" />
+I connected Ubuntu VM to the Natnetwork <br />
+<img src="https://imgur.com/Ifi7aI0.png" height="80%" width="80%" />
 <br />
 <br />
-I connected Kali VM to the Natnetwork<br/>
-<img src="https://i.postimg.cc/gkmnhrv5/Screenshot-2024-12-11-152445.png" />
+I connected Kali VM to the Natnetwork <br />
+<img src="https://imgur.com/IHT3GBb.png" height="80%" width="80%"/>
 <br />
 <br />
 I tested connectivity between the VMs by pinging the Kali VM with the Ubuntu VM. Connection successfully reached <br/>
-<img src="https://i.postimg.cc/FsTsJpFd/Screenshot-2024-12-11-152553.png" />
+<img src="https://imgur.com/V4hUo9w.png" height="80%" width="80%" />
 <br />
 <br />
 I ping Ubuntu VM with Windows 11 VM and connection was successful<br/>
-<img src="https://i.postimg.cc/1X9s8nLr/Screenshot-2024-12-11-153837.png" /> 
+<img src="https://imgur.com/ycomuHu.png"height="80%" width="80%" /> 
 <br />
 <br />
 I ping Ubuntu VM with Kali VM and connection was sucessful<br/>
-<img src="https://i.postimg.cc/1X9s8nLr/Screenshot-2024-12-11-153837.png" />
+<img src="https://imgur.com/tvddNNp.png" height="80%" width="80%"/>
 <br />
 <br />
 I installed and deployed Zeek network monitoring and analyzer tool on Ubuntu and had it up and running <br/>
-<img src="https://i.postimg.cc/qRCSG1ZH/Screenshot-2024-12-11-190957.png" />
+<img src="https://i.postimg.cc/qRCSG1ZH/Screenshot-2024-12-11-190957.png" height="80%" width="80%"/>
 <br />
 <br />
 I navigated to Zeek connection log directory to verify if its receiving logs. This output shows logs successfully been received<br/>
-<img src="https://i.postimg.cc/wjNZdxrq/Screenshot-2024-12-14-135740.png" />
+<img src="https://i.postimg.cc/wjNZdxrq/Screenshot-2024-12-14-135740.png" height="80%" width="80%"/>
 <br />
 <br />
 I signed up and deployed ElastiC SIEM instance  <br/>
-<img src="https://i.postimg.cc/28HGV42Q/Screenshot-2024-12-11-192543.png" />
+<img src="https://i.postimg.cc/28HGV42Q/Screenshot-2024-12-11-192543.png" height="80%" width="80%"/>
 <br />
 <br />
 I added built-in Elastic Defend integration to Elastic which provides prevention, detection and response capabilities<br/> 
-<img src="https://i.postimg.cc/gj5Sf1qL/Screenshot-2024-12-11-193851.png" />
+<img src="https://i.postimg.cc/gj5Sf1qL/Screenshot-2024-12-11-193851.png" height="80%" width="80%"/>
 <br />
 <br />
  I clicked insatll Elastic agent to beggin the installation<br />
-<img src="https://i.postimg.cc/4NK7QVXb/Screenshot-2024-12-11-194031.png" />
+<img src="https://i.postimg.cc/4NK7QVXb/Screenshot-2024-12-11-194031.png" height="80%" width="80%"/>
 <br />
 <br />
 I used this command to install the Elastic Agent on Windows 11 <br/> 
-<img src="https://i.postimg.cc/wjYFLXWz/Screenshot-2024-12-11-194405.png"/>
+<img src="https://i.postimg.cc/wjYFLXWz/Screenshot-2024-12-11-194405.png" height="80%" width="80%"/>
 <br />
 <br />
 I run the installation and it was successfully installed <br/> 
-<img src="https://i.postimg.cc/C5R1JppL/Screenshot-2024-12-12-111637.png"/>
+<img src="https://i.postimg.cc/C5R1JppL/Screenshot-2024-12-12-111637.png" height="80%" width="80%"/>
 <br />
 <br />
 Result of Elastic Agent enrolled on Windows 11<br/>
-<img src="https://i.postimg.cc/nzzccfzY/Screenshot-2024-12-12-112010.png" />
+<img src="https://i.postimg.cc/nzzccfzY/Screenshot-2024-12-12-112010.png" height="80%" width="80%"/>
 <br />
 <br />
 A preview in Elastic Siem shows logs coming in from the Windows 11 VM after the Agent installed. <br/>
-<img src="https://i.postimg.cc/1R8wJLHq/Screenshot-2024-12-12-114339.png" />
+<img src="https://i.postimg.cc/1R8wJLHq/Screenshot-2024-12-12-114339.png" height="80%" width="80%"/>
 <br />
 <br />
 I run a few commands again on the Windows 11 VM to verify if it will be pickup by Elastic <br/>
-<img src="https://i.postimg.cc/3NnYpLcC/Screenshot-2024-12-12-150440.png" />
+<img src="https://i.postimg.cc/3NnYpLcC/Screenshot-2024-12-12-150440.png" height="80%" width="80%"/>
 <br />
 <br />
 I query the logs in Elastic for the Command Whoami and it was pickup by Elastic<br/>
-<img src="https://i.postimg.cc/9Q2YzLjN/Screenshot-2024-12-12-151024.png" />
+<img src="https://i.postimg.cc/9Q2YzLjN/Screenshot-2024-12-12-151024.png" height="80%" width="80%"/>
 <br />
 <br />
 I also added Zeek integration to Elastic since I have Zeek running on Ubuntu VM for network monitoring.
-<img src="https://i.postimg.cc/ZnN94z7s/Screenshot-2024-12-12-114804.png" />
+<img src="https://i.postimg.cc/ZnN94z7s/Screenshot-2024-12-12-114804.png" height="80%" width="80%"/>
 <br />
 <br />
 Zeek integration added to Elastic <br/>
-<img src="https://i.postimg.cc/WzrYcX99/Screenshot-2024-12-12-130920.png" />
+<img src="https://i.postimg.cc/WzrYcX99/Screenshot-2024-12-12-130920.png" height="80%" width="80%"/>
 <br />
 <br />
 I run this command to install Elastic agent on Ubuntu where zeek is running<br/>
-<img src="https://i.postimg.cc/kg71LNWc/Screenshot-2024-12-12-130947.png" />
+<img src="https://i.postimg.cc/kg71LNWc/Screenshot-2024-12-12-130947.png" height="80%" width="80%"/>
 <br />
 <br />
 Elastic agent successfully installed on Ubuntu <br/>
-<img src="https://i.postimg.cc/N0XZ6Nnq/Screenshot-2024-12-12-131233.png" />
+<img src="https://i.postimg.cc/N0XZ6Nnq/Screenshot-2024-12-12-131233.png" height="80%" width="80%"/>
 <br />
 <br />
 Zeek logs successfully been ingested into Elastic<br/>
-<img src="https://i.postimg.cc/RZqf3Nmm/Screenshot-2024-12-12-135059.png" />
+<img src="https://i.postimg.cc/RZqf3Nmm/Screenshot-2024-12-12-135059.png" height="80%" width="80%"/>
 <br />
 <br />
 An overveiw of web scans againts a simple webserver<br/>
-<img src="https://i.postimg.cc/gJb6BsZc/Screenshot-2024-12-12-164810.png" />
+<img src="https://i.postimg.cc/gJb6BsZc/Screenshot-2024-12-12-164810.png" height="80%" width="80%"/>
 <br />
 <br />
 I created a simple web server on windows 11 VM <br/>
-<img src="https://i.postimg.cc/zf719XLL/Screenshot-2024-12-12-170102.png" />
+<img src="https://i.postimg.cc/zf719XLL/Screenshot-2024-12-12-170102.png" height="80%" width="80%"/>
 <br />
 <br />
 I tested the webserver on a web browser and it was successfully up and running<br/>
-<img src="https://i.postimg.cc/6qywVJp8/Screenshot-2024-12-12-173516.png" />
+<img src="https://i.postimg.cc/6qywVJp8/Screenshot-2024-12-12-173516.png" height="80%" width="80%"/>
 <br />
 <br />
 I run an Nmap scan against the webserver and we can see the request coming in on the webserver<br/>
-<img src="https://i.postimg.cc/g0YCqFMG/Screenshot-2024-12-13-015514.png" />
+<img src="https://i.postimg.cc/g0YCqFMG/Screenshot-2024-12-13-015514.png" height="80%" width="80%"/>
 <br />
 <br />
 I also run an Nikto scan against the webserver and we can see the request coming in on the webserver<br/>
@@ -221,7 +221,7 @@ I verified the logs in Elastic,filter the windowsAudioDevice-Powershell-cmdlet a
 <br />
 <br />
 I filtered the logs with the necessary fields to get a better view <br/>
-<img src="https://i.postimg.cc/VNRwJ388/Screenshot-2024-12-13-190608.png" />
+<img src="https://i.postimg.cc/VNRwJ388/Screenshot-2024-12-13-190608.png" height="80%" width="80%" />
 <br />
 <br />
 I then save the search which can be later use to alert in activities based on the command <br/>
