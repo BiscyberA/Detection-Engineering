@@ -29,7 +29,7 @@ Here is the Lab Overveiw<br/>
 <br />
 <br />
 I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Running<br/>
-<img src="https://imgur.com/u486CZ5.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/u486CZ5.png" height="80%" width="80%"/>
 <br />
 <br />
 I created a small NatNetwork to have all three VMs connected to it and be able to talk to each other<br/>
