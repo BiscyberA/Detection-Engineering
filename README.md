@@ -25,7 +25,7 @@ In this lab, we will focus on the core principles of detection engineering by de
 <p align="center">
 <br/>
 Here is the Lab Overveiw<br/>
-<img src="https://imgur.com/3H1TWOr.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/F0WgZnn.png" height="80%" width="80%" />
 <br />
 <br />
 I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Running<br/>
@@ -33,35 +33,35 @@ I installed Windows 11, Ubuntu, Kali Linux,on VirtualBox and they are up and Run
 <br />
 <br />
 I created a small NatNetwork to have all three VMs connected to it and be able to talk to each other<br/>
-<img src="https://imgur.com/uAC2GUw.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/uAC2GUw.png" height="80%" width="80%" />
 <br />
 <br />
-I connected Windows 11 VM to the Natnetwork<br/>
-<img src="https://imgur.com/ALNDB6v.png" height="80%" width="80%" />
+I connected Windows11 VM to the Natnetwork<br/>
+<img src="https://i.imgur.com/5sEOWIq.png" height="80%" width="80%" />
 <br />
 <br />
 I connected Ubuntu VM to the Natnetwork <br />
-<img src="https://imgur.com/Ifi7aI0.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/Ifi7aI0.png" height="80%" width="80%" />
 <br />
 <br />
 I connected Kali VM to the Natnetwork <br />
-<img src="https://imgur.com/IHT3GBb.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/IHT3GBb.png" height="80%" width="80%"/>
 <br />
 <br />
 I tested connectivity between the VMs by pinging the Kali VM with the Ubuntu VM. Connection successfully reached <br/>
-<img src="https://imgur.com/V4hUo9w.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/tvddNNp.png" height="80%" width="80%" />
 <br />
 <br />
 I ping Ubuntu VM with Windows 11 VM and connection was successful<br/>
-<img src="https://imgur.com/ycomuHu.png"height="80%" width="80%" /> 
+<img src="https://i.imgur.com/ycomuHu.png"height="80%" width="80%" /> 
 <br />
 <br />
 I ping Ubuntu VM with Kali VM and connection was sucessful<br/>
-<img src="https://imgur.com/tvddNNp.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/V4hUo9w.png" height="80%" width="80%"/>
 <br />
 <br />
 I installed and deployed Zeek network monitoring and analyzer tool on Ubuntu and had it up and running <br/>
-<img src="https://i.postimg.cc/qRCSG1ZH/Screenshot-2024-12-11-190957.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/UdOeB1A.png" height="80%" width="80%"/>
 <br />
 <br />
 I navigated to Zeek connection log directory to verify if its receiving logs. This output shows logs successfully been received<br/>
