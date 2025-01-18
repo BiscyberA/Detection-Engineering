@@ -2,7 +2,8 @@
  - [Creating,Validating,Deploying and Monitoring Threat Detection Rules]
 
 <h2>Description</h2>
-In this lab, we will focus on the core principles of detection engineering by designing, validating, and monitoring threat detection rules to identify and mitigate potential cybersecurity threats. The lab environment includes configuring a Kali Linux,Windows 11, Ubuntu(Zeek) virtual machine, Nmap,Nikto,Elastic Siem and Atomic Red Team to simulate malicious activity, ingesting log data, and analyzing system behavior to create actionable detection rules.
+This project demonstrates core detection engineering principles by designing, validating, and monitoring threat detection rules to identify and mitigate potential cybersecurity threats. The lab environment consists of a multi-platform virtualized setup, including Kali Linux, Windows 11, and Ubuntu (Zeek), integrated with tools like Elastic SIEM, Nmap, Nikto, and Atomic Red Team.
+The homelab simulates real-world cyberattacks and malicious activities to generate log data for ingestion, analysis, and rule development. Key activities include configuring Elastic SIEM for centralized log analysis, leveraging Zeek for network traffic monitoring, and using Nmap and Nikto for active reconnaissance and vulnerability assessment. Atomic Red Team was employed to simulate adversary tactics, providing a foundation for creating and testing actionable detection rules mapped to the MITRE ATT&CK framework.
 <br />
 
 <h2>Tools Used</h2>
@@ -229,6 +230,10 @@ I then save the search which can be later use to alert in activities based on th
 <br />
 <br />
 <h1>In Conclusion</h2>
-As a Detection Engineer, when investigating alerts or incidents related to suspicious activity, it is crucial to leverage various tools to analyze the data and identify potential threats. For example, email-related alerts can be dissected to uncover malicious indicators such as suspicious IPs, URLs, or payloads. Additionally, sandbox environments can be used to analyze attachments or executables, providing insight into the behavior of potential malware. This approach ensures accurate detections and aids in developing effective threat detection rules to proactively identify and mitigate similar threats in the future.
+The Detection Engineering Homelab successfully demonstrates the practical application of detection engineering principles in a simulated environment. By integrating industry-standard tools and technologies, such as Elastic SIEM, Atomic Red Team, Nmap, Zeek, and Nikto, the project highlights key methodologies for designing and validating effective threat detection rules.
+ 
+Through the lab, I explored the lifecycle of threat detection, from simulating adversary techniques to analyzing log data and crafting actionable detections. This hands-on approach not only reinforced my understanding of cybersecurity frameworks like MITRE ATT&CK but also showcased the importance of continuous monitoring and tuning to improve detection efficacy.
+
+Overall, this project serves as a comprehensive learning experience, bridging theoretical knowledge and real-world application. It underscores the critical role of detection engineering in modern cybersecurity practices and provides a foundation for future exploration in advanced threat detection and response.
 </p>
 
