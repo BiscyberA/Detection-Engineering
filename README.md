@@ -233,7 +233,6 @@ I then save the search which can be later use to alert in activities based on th
 The Detection Engineering Homelab successfully demonstrates the practical application of detection engineering principles in a simulated environment. By integrating industry-standard tools and technologies, such as Elastic SIEM, Atomic Red Team, Nmap, Zeek, and Nikto, the project highlights key methodologies for designing and validating effective threat detection rules.
  
 Through the lab, I explored the lifecycle of threat detection, from simulating adversary techniques to analyzing log data and crafting actionable detections. This hands-on approach not only reinforced my understanding of cybersecurity frameworks like MITRE ATT&CK but also showcased the importance of continuous monitoring and tuning to improve detection efficacy.
-
 Overall, this project serves as a comprehensive learning experience, bridging theoretical knowledge and real-world application. It underscores the critical role of detection engineering in modern cybersecurity practices and provides a foundation for future exploration in advanced threat detection and response.
 </p>
 
