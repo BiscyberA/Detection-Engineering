@@ -66,159 +66,159 @@ I installed and deployed Zeek network monitoring and analyzer tool on Ubuntu and
 <br />
 <br />
 I navigated to Zeek connection log directory to verify if its receiving logs. This output shows logs successfully been received<br/>
-<img src="https://i.postimg.cc/wjNZdxrq/Screenshot-2024-12-14-135740.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/UgXBYfc.png" height="80%" width="80%"/>
 <br />
 <br />
 I signed up and deployed ElastiC SIEM instance  <br/>
-<img src="https://i.postimg.cc/28HGV42Q/Screenshot-2024-12-11-192543.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/Uosd6ts.png" height="80%" width="80%"/>
 <br />
 <br />
 I added built-in Elastic Defend integration to Elastic which provides prevention, detection and response capabilities<br/> 
-<img src="https://i.postimg.cc/gj5Sf1qL/Screenshot-2024-12-11-193851.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/7Zujvnl.png" height="80%" width="80%"/>
 <br />
 <br />
- I clicked insatll Elastic agent to beggin the installation<br />
-<img src="https://i.postimg.cc/4NK7QVXb/Screenshot-2024-12-11-194031.png" height="80%" width="80%"/>
+ I clicked insatll Elastic agent to begin the installation<br />
+<img src="https://i.imgur.com/7WJYRj4.png" height="80%" width="80%"/>
 <br />
 <br />
 I used this command to install the Elastic Agent on Windows 11 <br/> 
-<img src="https://i.postimg.cc/wjYFLXWz/Screenshot-2024-12-11-194405.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/sYDdJ2v.png" height="80%" width="80%"/>
 <br />
 <br />
 I run the installation and it was successfully installed <br/> 
-<img src="https://i.postimg.cc/C5R1JppL/Screenshot-2024-12-12-111637.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/GqyZbom.png" height="80%" width="80%"/>
 <br />
 <br />
 Result of Elastic Agent enrolled on Windows 11<br/>
-<img src="https://i.postimg.cc/nzzccfzY/Screenshot-2024-12-12-112010.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/ZlfoEFg.png" height="80%" width="80%"/>
 <br />
 <br />
 A preview in Elastic Siem shows logs coming in from the Windows 11 VM after the Agent installed. <br/>
-<img src="https://i.postimg.cc/1R8wJLHq/Screenshot-2024-12-12-114339.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/f9E0XVl.png" height="80%" width="80%"/>
 <br />
 <br />
 I run a few commands again on the Windows 11 VM to verify if it will be pickup by Elastic <br/>
-<img src="https://i.postimg.cc/3NnYpLcC/Screenshot-2024-12-12-150440.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/33HFIUc.png" height="80%" width="80%"/>
 <br />
 <br />
 I query the logs in Elastic for the Command Whoami and it was pickup by Elastic<br/>
-<img src="https://i.postimg.cc/9Q2YzLjN/Screenshot-2024-12-12-151024.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/1rVKilp.png" height="80%" width="80%"/>
 <br />
 <br />
 I also added Zeek integration to Elastic since I have Zeek running on Ubuntu VM for network monitoring.
-<img src="https://i.postimg.cc/ZnN94z7s/Screenshot-2024-12-12-114804.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/QlGx3FO.png" height="80%" width="80%"/>
 <br />
 <br />
 Zeek integration added to Elastic <br/>
-<img src="https://i.postimg.cc/WzrYcX99/Screenshot-2024-12-12-130920.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/hKZYYAX.png" height="80%" width="80%"/>
 <br />
 <br />
 I run this command to install Elastic agent on Ubuntu where zeek is running<br/>
-<img src="https://i.postimg.cc/kg71LNWc/Screenshot-2024-12-12-130947.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/00dIMGH.png" height="80%" width="80%"/>
 <br />
 <br />
 Elastic agent successfully installed on Ubuntu <br/>
-<img src="https://i.postimg.cc/N0XZ6Nnq/Screenshot-2024-12-12-131233.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/XhuX07m.png" height="80%" width="80%"/>
 <br />
 <br />
 Zeek logs successfully been ingested into Elastic<br/>
-<img src="https://i.postimg.cc/RZqf3Nmm/Screenshot-2024-12-12-135059.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/6DjN9cO.png" height="80%" width="80%"/>
 <br />
 <br />
 An overveiw of web scans againts a simple webserver<br/>
-<img src="https://i.postimg.cc/gJb6BsZc/Screenshot-2024-12-12-164810.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/tlug0O4.png" height="80%" width="80%"/>
 <br />
 <br />
 I created a simple web server on windows 11 VM <br/>
-<img src="https://i.postimg.cc/zf719XLL/Screenshot-2024-12-12-170102.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/tR1fnTT.png" height="80%" width="80%"/>
 <br />
 <br />
 I tested the webserver on a web browser and it was successfully up and running<br/>
-<img src="https://i.postimg.cc/6qywVJp8/Screenshot-2024-12-12-173516.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/fhy3Ne3.png" height="80%" width="80%"/>
 <br />
 <br />
 I run an Nmap scan against the webserver and we can see the request coming in on the webserver<br/>
-<img src="https://i.postimg.cc/g0YCqFMG/Screenshot-2024-12-13-015514.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/XyiJHnx.png" height="80%" width="80%"/>
 <br />
 <br />
 I also run an Nikto scan against the webserver and we can see the request coming in on the webserver<br/>
-<img src="https://i.postimg.cc/t432yb39/Screenshot-2024-12-13-021655.png" />
+<img src="https://i.imgur.com/vRnjmWD.png" height="80%" width="80%"/>
 <br />
 <br />
 We can see zeek logs coming into Elastic after running the scans<br/>
-<img src="https://i.postimg.cc/DfR9w2XG/Screenshot-2024-12-12-135111.png" />
+<img src="https://i.imgur.com/ojJo3uD.png" height="80%" width="80%"/>
 <br />
 <br />
 We can see the logs in Elastic and based on the event.dataset, I am interested in zeek.http data since our scan was hitting the http server<br/>
-<img src="https://i.postimg.cc/0y9BGQLB/Screenshot-2024-12-12-235010.png" />
+<img src="https://i.imgur.com/LjxvS35.png" height="80%" width="80%"/>
 <br />
 <br />
 I filtered the logs to make it looks more readable and organize<br/>
-<img src="https://i.postimg.cc/SNy7ZFFm/Screenshot-2024-12-13-001211.png" />
+<img src="https://i.imgur.com/EyXaSPJ.png" height="80%" width="80%"/>
 <br />
 <br />
 I queried the logs for the string Nmap and got these results<br/>
-<img src="https://i.postimg.cc/gkQ2dFYt/Screenshot-2024-12-15-233043.png" />
+<img src="https://i.imgur.com/EhxLF3Y.png" height="80%" width="80%"/>
 <br />
 <br />
 I was also queried the logs for Nikto and got these results <br/>
-<img src="https://i.postimg.cc/zvMzRYTT/Screenshot-2024-12-13-010902.png" />
+<img src="https://i.postimg.cc/zvMzRYTT/Screenshot-2024-12-13-010902.png" height="80%" width="80%"/>
 <br />
 <br />
 I wrote a single query to filter namp and nikto strings in the logs. The idea here is to use this query to create a detection rule that will alert on Nmap and Nikto scans  <br/>
-<img src="https://i.postimg.cc/tTWwzQ0h/Screenshot-2024-12-15-000525.png" />
+<img src="https://i.postimg.cc/tTWwzQ0h/Screenshot-2024-12-15-000525.png" height="80%" width="80%"/>
 <br />
 <br />
 I am going to create a customer rule to alert on Nmap and Nikto scans <br/>
-<img src="https://i.postimg.cc/Bb3yYYsR/Screenshot-2024-12-13-012448.png" />
+<img src="https://i.postimg.cc/Bb3yYYsR/Screenshot-2024-12-13-012448.png" height="80%" width="80%"/>
 <br />
 <br />
 I added the query in the custom query field, suppressed alert by destination.ip and runs every 5mins.<br/>
-<img src="https://i.postimg.cc/mgkCpGmd/Screenshot-2024-12-13-012709.png" />
+<img src="https://i.postimg.cc/mgkCpGmd/Screenshot-2024-12-13-012709.png" height="80%" width="80%"/>
 <br />
 <br />
 I named the rule, gave a description and severity level<br/>
-<img src="https://i.postimg.cc/3RZhB6tX/Screenshot-2024-12-13-012941.png" />
+<img src="https://i.postimg.cc/3RZhB6tX/Screenshot-2024-12-13-012941.png" height="80%" width="80%"/>
 <br />
 <br />
 I added Mitre Att&ck information based on the activity performed<br/>
-<img src="https://i.postimg.cc/jSJr9C8d/Screenshot-2024-12-13-013747.png" />
+<img src="https://i.postimg.cc/jSJr9C8d/Screenshot-2024-12-13-013747.png" height="80%" width="80%"/>
 <br />
 <br />
 The rule shown been added to the Elastic buit-in rules list<br/>
-<img src="https://i.postimg.cc/4d05r42s/Screenshot-2024-12-15-002827.png" />
+<img src="https://i.postimg.cc/4d05r42s/Screenshot-2024-12-15-002827.png" height="80%" width="80%"/>
 <br />
 <br />
 I run the Nmap scan again against the web server to test on the detection rule created if it will be alerted in Elastic <br/>
-<img src="https://i.postimg.cc/FHYkgVK8/Screenshot-2024-12-13-015514.png" />
+<img src="https://i.postimg.cc/FHYkgVK8/Screenshot-2024-12-13-015514.png" height="80%" width="80%"/>
 <br />
 <br />
 I verified in Elastic and the Nmap scan was alert on the detection rule created <br/>
-<img src="https://i.postimg.cc/Z5N1H2RW/Screenshot-2024-12-13-020636.png" />
+<img src="https://i.postimg.cc/Z5N1H2RW/Screenshot-2024-12-13-020636.png" height="80%" width="80%"/>
 <br />
 <br />
  I installed Atomic Redteam on the Windows 11 VM to simulate an attack,create detection rule of the attack and use the rule to alert on activities in our environment <br/>
-<img src="https://i.postimg.cc/ydHJKqTC/Screenshot-2024-12-15-005711.png" />
+<img src="https://i.postimg.cc/ydHJKqTC/Screenshot-2024-12-15-005711.png" height="80%" width="80%"/>
 <br />
 <br />
 The installation run, basically installed the Atomic Redteam framework,a module into powershell and also downloaded the Mitre Techniques <br/>
-<img src="https://i.postimg.cc/23N89v4v/Screenshot-2024-12-14-220056.png" />
+<img src="https://i.postimg.cc/23N89v4v/Screenshot-2024-12-14-220056.png" height="80%" width="80%"/>
 <br />
 <br />
 I simulated the attack based on the Mitre Tactics Collection and Audio Capture Technique with ID T1123 <br/>
-<img src="https://i.postimg.cc/x81KTX8W/Screenshot-2024-12-15-011355.png" />
+<img src="https://i.postimg.cc/x81KTX8W/Screenshot-2024-12-15-011355.png" height="80%" width="80%"/>
 <br />
 <br />
 I run the simulation attack by running the invoke command on the technique T1123<br/>
-<img src="https://i.postimg.cc/90SCWZjw/Screenshot-2024-12-13-154524.png" />
+<img src="https://i.postimg.cc/90SCWZjw/Screenshot-2024-12-13-154524.png" height="80%" width="80%"/>
 <br />
 <br />
 The invoke command run, will basically run the below powershell attack command <br/>
-<img src="https://i.postimg.cc/L5jnSRBr/Screenshot-2024-12-15-013719.png" />
+<img src="https://i.postimg.cc/L5jnSRBr/Screenshot-2024-12-15-013719.png" height="80%" width="80%"/>
 <br />
 <br />
 I verified the logs in Elastic,filter the windowsAudioDevice-Powershell-cmdlet and the logs successfully show in Elastic <br/>
-<img src="https://i.postimg.cc/jdV7F3Qp/Screenshot-2024-12-13-190205.png" />
+<img src="https://i.postimg.cc/jdV7F3Qp/Screenshot-2024-12-13-190205.png" height="80%" width="80%"/>
 <br />
 <br />
 I filtered the logs with the necessary fields to get a better view <br/>
@@ -226,7 +226,7 @@ I filtered the logs with the necessary fields to get a better view <br/>
 <br />
 <br />
 I then save the search which can be later use to alert in activities based on the command <br/>
-<img src="https://i.postimg.cc/5y8qRhHt/Screenshot-2024-12-15-015920.png" />
+<img src="https://i.postimg.cc/5y8qRhHt/Screenshot-2024-12-15-015920.png" height="80%" width="80%"/>
 <br />
 <br />
 <h1>In Conclusion</h2>
